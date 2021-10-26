@@ -1,0 +1,66 @@
+.banner {
+    background-image: linear-gradient(to right, rgba(11, 46, 70, 0.548), rgba(5, 51, 78, 0.315)),
+        url("https://images.unsplash.com/photo-1518133120397-258d5eb470c6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 480px;
+}
+.nav-link , .link-gray{
+    cursor: pointer;
+    &:hover {
+        transform: scale(1.4);
+        color: #630834 !important;
+        font-weight: bold;
+        transition: 0.5s;
+    }
+}
+.card-text {
+    font-family: "Roboto", "sans-serif";
+}
+.liveReview {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 482px;
+}
+.mask {
+    background-color: #190014cc;
+}
+.swiper {
+    width: 100%;
+    img {
+        height: 350px;
+    }
+    & .card {
+        border: none;
+    }
+}
+.subscribe {
+    background-image: url("https://images.pexels.com/photos/3279691/pexels-photo-3279691.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.offcanvas {
+    top: 8%;
+    height: 70%;
+    max-width: 560px;
+    width: 100%;
+}
+.card {
+    border: 0 solid rgba(0, 0, 0, 0.125);
+}
+.white-btn-before {
+    background-color: #fff;
+}
+.gamePic {
+    overflow: hidden;
+    img {
+        &:hover {
+            transition: 0.5s;
+            transform: scale(1.3);
+        }
+    }
+}
